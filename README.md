@@ -3,6 +3,7 @@ ClickOnce and Visual Studio Installer bootstrapper package for Microsoft SQL Ser
 
 **To use:**
 
+Clone the repository to your computer or download and extract one of the attached archives from the [latest release](https://github.com/kjbartel/SqlLocalDB2014-Bootstrapper/releases/latest). 
 Copy the whole `SqlLocalDB2014` folder to the bootstrapper `Packages` folder, e.g. `C:\Program Files (x86)\Microsoft Visual Studio 14.0\SDK\Bootstrapper\Packages`. The path to this folder can be found in the registry in the `Path` value from the following registry key (where `14.0` should be replaced with the Visual Studio version you're using):
 
 > HKLM\Software\Microsoft\GenericBootstrapper\14.0
