@@ -11,4 +11,4 @@ or, for x64 Windows:
 
 > HKLM\Software\Wow6432Node\Microsoft\GenericBootstrapper\14.0
 
-The packge should then be shown in Visual Studio along with other bootstrapper packages. If you want to provide the component together with your application rather than downloading from Microsoft then you'll also need to download the two `sqllocaldb.msi` files specified in the `package.xml` file for English or Japanese, saving them in the respective `x86` and `x64` folders under the `SqlLocalDB2014` folder.
+The packge should then be shown in Visual Studio along with other bootstrapper packages. If you want to provide the component together with your application rather than downloading from Microsoft then you'll also need to download the two `sqllocaldb.msi` files specified in the `package.xml` file for the region and save them in the `SqlLocalDB2014` folder, renamed to `sqllocaldb_x86.msi` and `sqllocaldb_x64.msi`.
