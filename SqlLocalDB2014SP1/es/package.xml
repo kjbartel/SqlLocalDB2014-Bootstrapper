@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package Name="DisplayName" LicenseAgreement="Eula.rtf" Culture="Culture" xmlns="http://schemas.microsoft.com/developer/2004/01/bootstrapper">
+  <PackageFiles>
+    <PackageFile Name="Eula.rtf" />
+  </PackageFiles>
+  <Strings>
+    <String Name="Culture">es</String>
+    <String Name="DisplayName">SQL Server 2014 SP1 Express LocalDB</String>
+    <String Name="sqllocaldb_32">https://download.microsoft.com/download/4/7/F/47FF987C-C857-4446-BE6A-63C48C386BB8/ESN/x86/SqlLocalDB.msi</String>
+    <String Name="sqllocaldb_64">https://download.microsoft.com/download/4/7/F/47FF987C-C857-4446-BE6A-63C48C386BB8/ESN/x64/SqlLocalDB.msi</String>
+    <String Name="AdminRequired">No tiene los permisos necesarios para instalar SQL Server 2014 SP1 Express LocalDB. Póngase en contacto con el administrador.</String>
+    <String Name="GeneralFailure">Error al intentar instalar SQL Server 2014 SP1 Express LocalDB.</String>
+    <String Name="InvalidPlatformOS">La versión del sistema operativo actual no es compatible con SQL Server 2014 SP1 Express LocalDB.</String>
+    <String Name="InvalidPlatformOSServicePack">El sistema operativo actual no cumple los requisitos del Service Pack para SQL Server 2014 SP1 Express LocalDB. Instale el Service Pack más reciente desde el centro de descargas de Microsoft en http://www.microsoft.com/downloads antes de continuar con la instalación.</String>
+  </Strings>
+</Package>
